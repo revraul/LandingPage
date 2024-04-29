@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;  
+ }
+body {
+    background-image:url(IMG/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    z-index: -10px;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color: palegreen;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: "Anta", sans-serif;
+    font-weight: 600;
+}
+ 
+header .logo:hover {
+    color: black;
+    background-color: greenyellow;
+    transition: 0.3s;
+}
+header .navbar {
+    position: relative;
+    display: flex;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar a{
+    text-decoration: none;
+    color: palegreen;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+header .navbar a:hover {
+    border-bottom: solid 5px greenyellow;
+    padding: 5px;
+}
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .rotulodefinicion{
+    position: relative;
+    min-width: 600px;
+    text-align: center;
+}
+.contenido .rotulodefinicion h2{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: palegreen;
+}
+
+.contenido .rotulodefinicion h2 span{
+    background-color: black;
+    color: palegreen;
+    padding:0 10px;
+    font-family: "Anta", sans-serif; 
+    font-weight: 600;
+    border-radius: 30px; 
+}
+
+.contenido .rotulodefinicion p{
+   font-size: 1.8em;
+   line-height: 1.5;
+   color: greenyellow;
+   font-family: "Anta", sans-serif;
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+
+.contenido .rotulodefinicion a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: palegreen;
+    background-color: black;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+ }
+
+ .contenido .rotulodefinicion a:hover {
+    background-color: greenyellow;
+    color: black;
+    transition: 0.3s;
+ }
+
+ .contenido .imagenpersona {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -20px;
+    z-index: -5;
+ }
+
+ .contenido .imagenpersona img{
+    height: 80vh;
+ }
+
+ .contenido .imagenpersona img:hover {
+    height: 80vh;
+ }
+
+ .copyright {
+    position: absolute;
+    bottom: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .copyright p {
+    color: palegreen;
+    text-align: center;
+    margin-left: 100px;
+ }
+
+.redessociales {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+
+.redessociales li {
+    padding: 10px;
+}
+
+.redessociales li a {
+    color: palegreen;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.redessociales li a:hover {
+    color: greenyellow;
+    padding: 5px;
+}
+
+div .experienciaprofesional{
+    color: palegreen;
+    text-align: center;
+    justify-content: left;
+}
+.contenidoprofesional {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+   }
+
+.contenidoprofesional .experienciaprofesional {
+    position: relative;
+    min-width: 600px;
+    text-align: center;
+    background-color: black;
+    border-radius: 30px;
+}
+.contenidoprofesional .experienciaprofesional h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: palegreen;
+}
+
+.contenidoprofesional .experienciaprofesional h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: palegreen;
+}
+div .experiencialaboral{
+    color: palegreen;
+}
+.contenidolaboral {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+   }
+
+.contenidolaboral .experiencialaboral {
+    position: relative;
+    min-width: 600px;
+    text-align: center;
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+.contenidoprofesional .experiencialaboral h2  {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: palegreen;
+}
+.contenidoprofesional .experiencialaboral h1 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: palegreen;
+}
+
+
+.imagencv {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end; 
+    margin-left: -2000px;
+    z-index: -5;
+ }
+
+
+.redessocialescv {
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+    list-style: none;
+}
+
+.redessocialescv li {
+    padding: 10px;
+}
+
+.redessocialescv li a {
+    color: palegreen;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.redessocialescv li a:hover {
+    color: greenyellow;
+    padding: 5px;
+} 
+
+.rotuloform {
+    font-family: "Anta", sans-serif;  
+    font-size: 28px;
+    text-align: center;
+    color: palegreen;
+    text-decoration: none;
+}
+
+form {
+    color: greenyellow;
+    width: 600px;
+    height: 470px;
+    border: 5px outset rgb(3, 110, 12);
+    border-radius: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-family: Verdana;
+    margin: auto;
+    margin-top: 0px;
+}
+fieldset {
+    border-radius: 10px;
+}
+legend {
+    font-family: "Anta", sans-serif;  
+    font-size: 20px;
+    color: palegreen
+}
+textarea {
+    width: 600px;
+    height: 300px;
+}
+#botones {
+    font-family: "Anta", sans-serif;
+    font-size: 18px;
+    color: black;
+    border: 1px solid palegreen;
+    background-color: palegreen;
+    width: 200px;
+    height:50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+.navbarproyecto {
+    color: palegreen;
+    font-family: "Anta", sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.navbarproyecto > li{
+    list-style: none;
+    float: left;
+}
+.navbarproyecto ul{
+    list-style: none;
+    color: palegreen;
+}
+.navbarproyecto li a{
+    text-decoration: none;
+    color: palegreen;
+    padding: 10px 15px;
+    display: block;
+}
+
+.navbarproyecto li ul {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+.navbarproyecto li:hover > ul {
+    display: block;
+}
+.navbarproyecto li:hover a{
+    color: black;
+    background-color: greenyellow;
+    transition: 0.3s;
+    border-radius: 100px;
+}
+.copyrightcv {
+    color: palegreen;
+    position: absolute;
+    bottom: -100px;
+    margin-left: 400px;
+    margin-right: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrightcontacto {
+    color: palegreen;
+    position: absolute;
+    bottom: -100px;
+    margin-left: 100px;
+    margin-right: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*responsive: para adaptar web diferentes pantallas*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 576px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .imagenpersona {
+        width: 55%; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    }
+}
